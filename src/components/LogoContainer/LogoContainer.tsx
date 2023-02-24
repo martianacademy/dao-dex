@@ -8,7 +8,7 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { TokenLogo, TokenSymbol } from "../../hooks";
+import { TokenLogo, TokenSymbol } from "../../hooks/SupportedNetworkInfo";
 
 export const LogoContainer = () => {
   const navigate = useNavigate();

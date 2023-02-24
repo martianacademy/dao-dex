@@ -15,7 +15,11 @@ import { FaPlug, FaTag } from "react-icons/fa";
 import { GiFlamer } from "react-icons/gi";
 import { VscSymbolNamespace } from "react-icons/vsc";
 import { PolygonLogoSVG, USDTLogoSVG } from "../../../assets";
-import { TokenName, TokenSupply, TokenSymbol } from "../../../hooks";
+import {
+  TokenName,
+  TokenSupply,
+  TokenSymbol,
+} from "../../../hooks/SupportedNetworkInfo";
 
 const FeatureCard = ({
   icon,

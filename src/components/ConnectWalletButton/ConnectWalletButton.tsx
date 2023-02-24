@@ -12,7 +12,7 @@ import {
 } from "@chakra-ui/react";
 import { shortenAddress, useEthers } from "@usedapp/core";
 import { MetamaskWalletLogoSVG } from "../../assets";
-import { useSupportedNetworkInfo } from "../../hooks";
+import { useSupportedNetworkInfo } from "../../hooks/SupportedNetworkInfo";
 import { DrawerAuthFull } from "../Drawers";
 
 export const ConnectWalletButton = () => {

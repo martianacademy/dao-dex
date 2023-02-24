@@ -12,7 +12,7 @@ import {
 import { shortenAddress, useEthers } from "@usedapp/core";
 import React from "react";
 import { IconType } from "react-icons";
-import { FaChartBar, FaPiggyBank, FaUsers } from "react-icons/fa";
+import { FaChartBar, FaPiggyBank, FaUsers, FaWallet } from "react-icons/fa";
 import { TbArrowsDoubleNeSw } from "react-icons/tb";
 import { useNavigate } from "react-router-dom";
 
@@ -52,8 +52,12 @@ export const DrawerMenuRightAuth = ({ onClose }: { onClose: () => void }) => {
   return (
     <VStack w="full">
       <HStack w="full" px={2} spacing={5}>
-        <Avatar></Avatar>
-        <Button w={300} colorScheme="green" borderRadius="xl">
+        <Button
+          w={300}
+          colorScheme="green"
+          borderRadius="xl"
+          leftIcon={<FaWallet />}
+        >
           {account && shortenAddress(account)}
         </Button>
       </HStack>

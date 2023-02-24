@@ -38,7 +38,7 @@ const FeatureCard = ({
 
 export const StakingRewards = () => {
   return (
-    <Wrap w="full" align="center" justify="center" spacing={10}>
+    <Wrap w="full" align="center" justify="center" spacing={5}>
       <FeatureCard stakingDuration={3} apy={36}></FeatureCard>
       <FeatureCard stakingDuration={6} apy={42}></FeatureCard>
       <FeatureCard stakingDuration={9} apy={48}></FeatureCard>

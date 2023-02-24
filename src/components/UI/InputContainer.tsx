@@ -14,7 +14,7 @@ export const InputContainer = ({ children }: { children: React.ReactNode }) => {
       p={3}
       w="full"
       borderRadius="3xl"
-      bgColor={useColorModeValue("white", "whiteAlpha.200")}
+      // bgColor={useColorModeValue("white", "gray.800")}
       borderWidth="thin"
     >
       {children}

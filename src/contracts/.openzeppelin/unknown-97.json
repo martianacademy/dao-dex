@@ -15,6 +15,21 @@
       "address": "0x9b79Ec38Af60C7ad4D9082BEAA86D25AFF68F359",
       "txHash": "0x537e63426e6aacf260409dbe16420b262f5ae849eb4eabf1f2136ce000cb21c4",
       "kind": "uups"
+    },
+    {
+      "address": "0x1a2d6425D1748c88604Edf7694B5DA6826aE5252",
+      "txHash": "0xd0511857751641af8c688c86a5ff717f8c863a4920546a2ea21034c7fc84129f",
+      "kind": "uups"
+    },
+    {
+      "address": "0xf6B661f27DA6C90164CD7F1F54fA4a4E3AF9f3f0",
+      "txHash": "0x3992c2623d7a447561356b48ecff03fcc21eb3f52c9e5a3c650f43818dbea891",
+      "kind": "uups"
+    },
+    {
+      "address": "0xeb77dBf0aB3f3cdA92Ad1b6165BeE88ef75eaE4E",
+      "txHash": "0xf2ebbd867d28294ec57e4423a2fe2c630720073568638c3863ef9ea6e0a8ee9f",
+      "kind": "uups"
     }
   ],
   "impls": {
@@ -11682,6 +11697,3352 @@
               }
             ],
             "numberOfBytes": "64"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "777cc510ace55d1692ae83d3d5f399f2e4d1a64ac78d5574e6be75aa0079e2c1": {
+      "address": "0x64021C7b0fC9c58eea5ed757714b9D4ebE4169BF",
+      "txHash": "0x120ba412e024a2fbfd5da46d0b35291d7fa3636cc4a8b3aa79bf3814111e53ab",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "_paused",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_bool",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:116"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:107"
+          },
+          {
+            "label": "_tokenSeller",
+            "offset": 0,
+            "slot": "251",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:70"
+          },
+          {
+            "label": "_rewardOwner",
+            "offset": 0,
+            "slot": "252",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:71"
+          },
+          {
+            "label": "_tokenContract",
+            "offset": 0,
+            "slot": "253",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:73"
+          },
+          {
+            "label": "_stakingContract",
+            "offset": 0,
+            "slot": "254",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:74"
+          },
+          {
+            "label": "_referralContract",
+            "offset": 0,
+            "slot": "255",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:75"
+          },
+          {
+            "label": "_usdtContract",
+            "offset": 0,
+            "slot": "256",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:76"
+          },
+          {
+            "label": "_rewardTokenContract",
+            "offset": 0,
+            "slot": "257",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:77"
+          },
+          {
+            "label": "_priceFeedOracleAddress",
+            "offset": 0,
+            "slot": "258",
+            "type": "t_contract(AggregatorV3Interface)45",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:79"
+          },
+          {
+            "label": "_pricePerUSD",
+            "offset": 0,
+            "slot": "259",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:81"
+          },
+          {
+            "label": "_rewardPerUSD",
+            "offset": 0,
+            "slot": "260",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:82"
+          },
+          {
+            "label": "_minContributionUSD",
+            "offset": 0,
+            "slot": "261",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:83"
+          },
+          {
+            "label": "_totalTokenSold",
+            "offset": 0,
+            "slot": "262",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:85"
+          },
+          {
+            "label": "_totalETHRaised",
+            "offset": 0,
+            "slot": "263",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:86"
+          },
+          {
+            "label": "_totalUSDRaised",
+            "offset": 0,
+            "slot": "264",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:87"
+          },
+          {
+            "label": "_isBuyNStake",
+            "offset": 0,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:89"
+          },
+          {
+            "label": "_isPayReferral",
+            "offset": 1,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:90"
+          },
+          {
+            "label": "_isPayRewardTokens",
+            "offset": 2,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:91"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(AggregatorV3Interface)45": {
+            "label": "contract AggregatorV3Interface",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "e8c94422dc619b987f1a30a3366fb99069a9c02d42c5e019f7aedaf82246dbe6": {
+      "address": "0xbBA0a5B250D6C416dA8716d23E43Ebf973eFDaeb",
+      "txHash": "0xbc16bebbcfa95919c3d803f91c70af14dcd1956c7a9f4f7613c3a29bb8c8e8a0",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_paused",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_bool",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:116"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:107"
+          },
+          {
+            "label": "_tokenContract",
+            "offset": 0,
+            "slot": "251",
+            "type": "t_address",
+            "contract": "ReferralUpgradeable",
+            "src": "contracts/ReferralUpgradeable.sol:27"
+          },
+          {
+            "label": "_presaleContract",
+            "offset": 0,
+            "slot": "252",
+            "type": "t_address",
+            "contract": "ReferralUpgradeable",
+            "src": "contracts/ReferralUpgradeable.sol:28"
+          },
+          {
+            "label": "_stakingContract",
+            "offset": 0,
+            "slot": "253",
+            "type": "t_address",
+            "contract": "ReferralUpgradeable",
+            "src": "contracts/ReferralUpgradeable.sol:29"
+          },
+          {
+            "label": "_usdtContract",
+            "offset": 0,
+            "slot": "254",
+            "type": "t_address",
+            "contract": "ReferralUpgradeable",
+            "src": "contracts/ReferralUpgradeable.sol:30"
+          },
+          {
+            "label": "_tokenSeller",
+            "offset": 0,
+            "slot": "255",
+            "type": "t_address",
+            "contract": "ReferralUpgradeable",
+            "src": "contracts/ReferralUpgradeable.sol:32"
+          },
+          {
+            "label": "_levelRateReferral",
+            "offset": 0,
+            "slot": "256",
+            "type": "t_array(t_uint256)dyn_storage",
+            "contract": "ReferralUpgradeable",
+            "src": "contracts/ReferralUpgradeable.sol:34"
+          },
+          {
+            "label": "_levelRateStaking",
+            "offset": 0,
+            "slot": "257",
+            "type": "t_array(t_uint256)dyn_storage",
+            "contract": "ReferralUpgradeable",
+            "src": "contracts/ReferralUpgradeable.sol:35"
+          },
+          {
+            "label": "_levelDecimals",
+            "offset": 0,
+            "slot": "258",
+            "type": "t_uint256",
+            "contract": "ReferralUpgradeable",
+            "src": "contracts/ReferralUpgradeable.sol:36"
+          },
+          {
+            "label": "_circularReferenceLevels",
+            "offset": 0,
+            "slot": "259",
+            "type": "t_uint256",
+            "contract": "ReferralUpgradeable",
+            "src": "contracts/ReferralUpgradeable.sol:37"
+          },
+          {
+            "label": "_totalReferralPaidETH",
+            "offset": 0,
+            "slot": "260",
+            "type": "t_uint256",
+            "contract": "ReferralUpgradeable",
+            "src": "contracts/ReferralUpgradeable.sol:39"
+          },
+          {
+            "label": "_totalReferralPaidUSD",
+            "offset": 0,
+            "slot": "261",
+            "type": "t_uint256",
+            "contract": "ReferralUpgradeable",
+            "src": "contracts/ReferralUpgradeable.sol:40"
+          },
+          {
+            "label": "_totalReferralPaidStaking",
+            "offset": 0,
+            "slot": "262",
+            "type": "t_uint256",
+            "contract": "ReferralUpgradeable",
+            "src": "contracts/ReferralUpgradeable.sol:41"
+          },
+          {
+            "label": "_defaultReferrer",
+            "offset": 0,
+            "slot": "263",
+            "type": "t_address_payable",
+            "contract": "ReferralUpgradeable",
+            "src": "contracts/ReferralUpgradeable.sol:43"
+          },
+          {
+            "label": "accounts",
+            "offset": 0,
+            "slot": "264",
+            "type": "t_mapping(t_address,t_struct(Account)1763_storage)",
+            "contract": "ReferralUpgradeable",
+            "src": "contracts/ReferralUpgradeable.sol:59"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_struct(Account)1763_storage)": {
+            "label": "mapping(address => struct ReferralUpgradeable.Account)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Account)1763_storage": {
+            "label": "struct ReferralUpgradeable.Account",
+            "members": [
+              {
+                "label": "referrer",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "referredAddresses",
+                "type": "t_array(t_address)dyn_storage",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "teamAddress",
+                "type": "t_array(t_address)dyn_storage",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "totalBusinessETH",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "totalBusinessUSD",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "rewardPaidETH",
+                "type": "t_array(t_uint256)dyn_storage",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "rewardPaidUSD",
+                "type": "t_array(t_uint256)dyn_storage",
+                "offset": 0,
+                "slot": "6"
+              },
+              {
+                "label": "rewardPaidStaking",
+                "type": "t_array(t_uint256)dyn_storage",
+                "offset": 0,
+                "slot": "7"
+              },
+              {
+                "label": "rewardPaidTimeETH",
+                "type": "t_array(t_uint256)dyn_storage",
+                "offset": 0,
+                "slot": "8"
+              },
+              {
+                "label": "rewardPaidTimeUSD",
+                "type": "t_array(t_uint256)dyn_storage",
+                "offset": 0,
+                "slot": "9"
+              },
+              {
+                "label": "rewardPaidTimeStaking",
+                "type": "t_array(t_uint256)dyn_storage",
+                "offset": 0,
+                "slot": "10"
+              }
+            ],
+            "numberOfBytes": "352"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "214d37d23603c0df8710a6cc620f6e033f3dbdbbd07481e276f8efdf694ba4e1": {
+      "address": "0xC2c5473AB1EAbcAd14b36827462E785Cfe76B4d1",
+      "txHash": "0x96f19d0182bf78ee8fcd42959ad94f30dbef7b8ff983ed25d9db8e4b367f7bde",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_paused",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_bool",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:116"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:107"
+          },
+          {
+            "label": "_tokenSeller",
+            "offset": 0,
+            "slot": "251",
+            "type": "t_address",
+            "contract": "StakingUpgradeable",
+            "src": "contracts/StakingUpgradeable.sol:40"
+          },
+          {
+            "label": "_tokenContract",
+            "offset": 0,
+            "slot": "252",
+            "type": "t_address",
+            "contract": "StakingUpgradeable",
+            "src": "contracts/StakingUpgradeable.sol:41"
+          },
+          {
+            "label": "_presaleContract",
+            "offset": 0,
+            "slot": "253",
+            "type": "t_address",
+            "contract": "StakingUpgradeable",
+            "src": "contracts/StakingUpgradeable.sol:42"
+          },
+          {
+            "label": "_referralContract",
+            "offset": 0,
+            "slot": "254",
+            "type": "t_address",
+            "contract": "StakingUpgradeable",
+            "src": "contracts/StakingUpgradeable.sol:43"
+          },
+          {
+            "label": "_usdtContract",
+            "offset": 0,
+            "slot": "255",
+            "type": "t_address",
+            "contract": "StakingUpgradeable",
+            "src": "contracts/StakingUpgradeable.sol:44"
+          },
+          {
+            "label": "_totalStakers",
+            "offset": 0,
+            "slot": "256",
+            "type": "t_uint256",
+            "contract": "StakingUpgradeable",
+            "src": "contracts/StakingUpgradeable.sol:46"
+          },
+          {
+            "label": "_totalValueStaked",
+            "offset": 0,
+            "slot": "257",
+            "type": "t_uint256",
+            "contract": "StakingUpgradeable",
+            "src": "contracts/StakingUpgradeable.sol:47"
+          },
+          {
+            "label": "_totalRewardsDistributed",
+            "offset": 0,
+            "slot": "258",
+            "type": "t_uint256",
+            "contract": "StakingUpgradeable",
+            "src": "contracts/StakingUpgradeable.sol:48"
+          },
+          {
+            "label": "_totalRewardsDistributedInUSDT",
+            "offset": 0,
+            "slot": "259",
+            "type": "t_uint256",
+            "contract": "StakingUpgradeable",
+            "src": "contracts/StakingUpgradeable.sol:49"
+          },
+          {
+            "label": "_stakingDurations",
+            "offset": 0,
+            "slot": "260",
+            "type": "t_array(t_uint256)dyn_storage",
+            "contract": "StakingUpgradeable",
+            "src": "contracts/StakingUpgradeable.sol:51"
+          },
+          {
+            "label": "_rewardRates",
+            "offset": 0,
+            "slot": "261",
+            "type": "t_array(t_uint256)dyn_storage",
+            "contract": "StakingUpgradeable",
+            "src": "contracts/StakingUpgradeable.sol:52"
+          },
+          {
+            "label": "_minStakingValue",
+            "offset": 0,
+            "slot": "262",
+            "type": "t_uint256",
+            "contract": "StakingUpgradeable",
+            "src": "contracts/StakingUpgradeable.sol:54"
+          },
+          {
+            "label": "_rewardInUSDEnabled",
+            "offset": 0,
+            "slot": "263",
+            "type": "t_bool",
+            "contract": "StakingUpgradeable",
+            "src": "contracts/StakingUpgradeable.sol:56"
+          },
+          {
+            "label": "_isPayReferral",
+            "offset": 1,
+            "slot": "263",
+            "type": "t_bool",
+            "contract": "StakingUpgradeable",
+            "src": "contracts/StakingUpgradeable.sol:57"
+          },
+          {
+            "label": "user",
+            "offset": 0,
+            "slot": "264",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_struct(Account)1457_storage))",
+            "contract": "StakingUpgradeable",
+            "src": "contracts/StakingUpgradeable.sol:68"
+          },
+          {
+            "label": "userStakingIndexes",
+            "offset": 0,
+            "slot": "265",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "StakingUpgradeable",
+            "src": "contracts/StakingUpgradeable.sol:69"
+          },
+          {
+            "label": "userRewardClaimed",
+            "offset": 0,
+            "slot": "266",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "StakingUpgradeable",
+            "src": "contracts/StakingUpgradeable.sol:70"
+          },
+          {
+            "label": "userRewardClaimedTimestamp",
+            "offset": 0,
+            "slot": "267",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "StakingUpgradeable",
+            "src": "contracts/StakingUpgradeable.sol:71"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(address => uint256[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_struct(Account)1457_storage))": {
+            "label": "mapping(address => mapping(uint256 => struct StakingUpgradeable.Account))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(Account)1457_storage)": {
+            "label": "mapping(uint256 => struct StakingUpgradeable.Account)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Account)1457_storage": {
+            "label": "struct StakingUpgradeable.Account",
+            "members": [
+              {
+                "label": "valueStaked",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "rewardRate",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "startTime",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "endTime",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "rewardClaimed",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "blockNumber",
+                "type": "t_array(t_uint256)dyn_storage",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "e7334ae69e7f3c8592d76e72fbc0ee6a62cb13ec16fd154fa382171d2d402388": {
+      "address": "0x167f8981a87F10376239Ab34f2c99F7c815a30C0",
+      "txHash": "0x8269ee0900ee0ad47a7d32d7aa6b75e11dd32b03686c282c7395b0e675222d42",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "_paused",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_bool",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:116"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:107"
+          },
+          {
+            "label": "_tokenSeller",
+            "offset": 0,
+            "slot": "251",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:70"
+          },
+          {
+            "label": "_rewardOwner",
+            "offset": 0,
+            "slot": "252",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:71"
+          },
+          {
+            "label": "_tokenContract",
+            "offset": 0,
+            "slot": "253",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:73"
+          },
+          {
+            "label": "_stakingContract",
+            "offset": 0,
+            "slot": "254",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:74"
+          },
+          {
+            "label": "_referralContract",
+            "offset": 0,
+            "slot": "255",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:75"
+          },
+          {
+            "label": "_usdtContract",
+            "offset": 0,
+            "slot": "256",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:76"
+          },
+          {
+            "label": "_rewardTokenContract",
+            "offset": 0,
+            "slot": "257",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:77"
+          },
+          {
+            "label": "_priceFeedOracleAddress",
+            "offset": 0,
+            "slot": "258",
+            "type": "t_contract(AggregatorV3Interface)45",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:79"
+          },
+          {
+            "label": "_pricePerUSD",
+            "offset": 0,
+            "slot": "259",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:81"
+          },
+          {
+            "label": "_rewardPerUSD",
+            "offset": 0,
+            "slot": "260",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:82"
+          },
+          {
+            "label": "_minContributionUSD",
+            "offset": 0,
+            "slot": "261",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:83"
+          },
+          {
+            "label": "_totalTokenSold",
+            "offset": 0,
+            "slot": "262",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:85"
+          },
+          {
+            "label": "_totalETHRaised",
+            "offset": 0,
+            "slot": "263",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:86"
+          },
+          {
+            "label": "_totalUSDRaised",
+            "offset": 0,
+            "slot": "264",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:87"
+          },
+          {
+            "label": "_isBuyNStake",
+            "offset": 0,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:89"
+          },
+          {
+            "label": "_isPayReferral",
+            "offset": 1,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:90"
+          },
+          {
+            "label": "_isPayRewardTokens",
+            "offset": 2,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:91"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(AggregatorV3Interface)45": {
+            "label": "contract AggregatorV3Interface",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "5c0b302828236dde76cfe28833e6c0d561ab3eb17b250bc76dd776f65c7e8df8": {
+      "address": "0xe39b30C0b1a325E51162C8810584A497738f7AbE",
+      "txHash": "0xbe5c1f9c255978713f61e52177f597829a58c3e9810e68f55acaea5002e0652c",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "_paused",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_bool",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:116"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:107"
+          },
+          {
+            "label": "_tokenSeller",
+            "offset": 0,
+            "slot": "251",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:70"
+          },
+          {
+            "label": "_rewardOwner",
+            "offset": 0,
+            "slot": "252",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:71"
+          },
+          {
+            "label": "_tokenContract",
+            "offset": 0,
+            "slot": "253",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:73"
+          },
+          {
+            "label": "_stakingContract",
+            "offset": 0,
+            "slot": "254",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:74"
+          },
+          {
+            "label": "_referralContract",
+            "offset": 0,
+            "slot": "255",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:75"
+          },
+          {
+            "label": "_usdtContract",
+            "offset": 0,
+            "slot": "256",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:76"
+          },
+          {
+            "label": "_rewardTokenContract",
+            "offset": 0,
+            "slot": "257",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:77"
+          },
+          {
+            "label": "_priceFeedOracleAddress",
+            "offset": 0,
+            "slot": "258",
+            "type": "t_contract(AggregatorV3Interface)45",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:79"
+          },
+          {
+            "label": "_pricePerUSD",
+            "offset": 0,
+            "slot": "259",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:81"
+          },
+          {
+            "label": "_rewardPerUSD",
+            "offset": 0,
+            "slot": "260",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:82"
+          },
+          {
+            "label": "_minContributionUSD",
+            "offset": 0,
+            "slot": "261",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:83"
+          },
+          {
+            "label": "_totalTokenSold",
+            "offset": 0,
+            "slot": "262",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:85"
+          },
+          {
+            "label": "_totalETHRaised",
+            "offset": 0,
+            "slot": "263",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:86"
+          },
+          {
+            "label": "_totalUSDRaised",
+            "offset": 0,
+            "slot": "264",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:87"
+          },
+          {
+            "label": "_isBuyNStake",
+            "offset": 0,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:89"
+          },
+          {
+            "label": "_isPayReferral",
+            "offset": 1,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:90"
+          },
+          {
+            "label": "_isPayRewardTokens",
+            "offset": 2,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:91"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(AggregatorV3Interface)45": {
+            "label": "contract AggregatorV3Interface",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "76712830c6f5d762450ad25da904611d411418c2b1e72f65471d83bb4c1faa32": {
+      "address": "0x91Fd5327A35B0D39A3cFF9DDcAbE5D1746Bca85E",
+      "txHash": "0xb63b17b401bb3f9ac7e20eb3e7d754721557ac0ffdc289056448ef61aa54934f",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "_paused",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_bool",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:116"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:107"
+          },
+          {
+            "label": "_tokenSeller",
+            "offset": 0,
+            "slot": "251",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:72"
+          },
+          {
+            "label": "_rewardOwner",
+            "offset": 0,
+            "slot": "252",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:73"
+          },
+          {
+            "label": "_tokenContract",
+            "offset": 0,
+            "slot": "253",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:75"
+          },
+          {
+            "label": "_stakingContract",
+            "offset": 0,
+            "slot": "254",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:76"
+          },
+          {
+            "label": "_referralContract",
+            "offset": 0,
+            "slot": "255",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:77"
+          },
+          {
+            "label": "_usdtContract",
+            "offset": 0,
+            "slot": "256",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:78"
+          },
+          {
+            "label": "_rewardTokenContract",
+            "offset": 0,
+            "slot": "257",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:79"
+          },
+          {
+            "label": "_priceFeedOracleAddress",
+            "offset": 0,
+            "slot": "258",
+            "type": "t_contract(AggregatorV3Interface)45",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:81"
+          },
+          {
+            "label": "_pricePerUSD",
+            "offset": 0,
+            "slot": "259",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:83"
+          },
+          {
+            "label": "_rewardPerUSD",
+            "offset": 0,
+            "slot": "260",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:84"
+          },
+          {
+            "label": "_minContributionUSD",
+            "offset": 0,
+            "slot": "261",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:85"
+          },
+          {
+            "label": "_totalTokenSold",
+            "offset": 0,
+            "slot": "262",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:87"
+          },
+          {
+            "label": "_totalETHRaised",
+            "offset": 0,
+            "slot": "263",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:88"
+          },
+          {
+            "label": "_totalUSDRaised",
+            "offset": 0,
+            "slot": "264",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:89"
+          },
+          {
+            "label": "_isBuyNStake",
+            "offset": 0,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:91"
+          },
+          {
+            "label": "_isPayReferral",
+            "offset": 1,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:92"
+          },
+          {
+            "label": "_isPayRewardTokens",
+            "offset": 2,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:93"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(AggregatorV3Interface)45": {
+            "label": "contract AggregatorV3Interface",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "bcb0ed3d421ef09ba588fa6a5f639318bf50e647b7ef3102c8ad41a2ce2da041": {
+      "address": "0xE9C744Bd5d0f1E94AD4A7D6F6590a370Cd921A20",
+      "txHash": "0x001d61ec96c32b369dd1e41936225d54679ec8649823e2376f3690c75de5ea15",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "_paused",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_bool",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:116"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:107"
+          },
+          {
+            "label": "_tokenSeller",
+            "offset": 0,
+            "slot": "251",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:72"
+          },
+          {
+            "label": "_rewardOwner",
+            "offset": 0,
+            "slot": "252",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:73"
+          },
+          {
+            "label": "_tokenContract",
+            "offset": 0,
+            "slot": "253",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:75"
+          },
+          {
+            "label": "_stakingContract",
+            "offset": 0,
+            "slot": "254",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:76"
+          },
+          {
+            "label": "_referralContract",
+            "offset": 0,
+            "slot": "255",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:77"
+          },
+          {
+            "label": "_usdtContract",
+            "offset": 0,
+            "slot": "256",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:78"
+          },
+          {
+            "label": "_rewardTokenContract",
+            "offset": 0,
+            "slot": "257",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:79"
+          },
+          {
+            "label": "_priceFeedOracleAddress",
+            "offset": 0,
+            "slot": "258",
+            "type": "t_contract(AggregatorV3Interface)45",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:81"
+          },
+          {
+            "label": "_pricePerUSD",
+            "offset": 0,
+            "slot": "259",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:83"
+          },
+          {
+            "label": "_rewardPerUSD",
+            "offset": 0,
+            "slot": "260",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:84"
+          },
+          {
+            "label": "_minContributionUSD",
+            "offset": 0,
+            "slot": "261",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:85"
+          },
+          {
+            "label": "_totalTokenSold",
+            "offset": 0,
+            "slot": "262",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:87"
+          },
+          {
+            "label": "_totalETHRaised",
+            "offset": 0,
+            "slot": "263",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:88"
+          },
+          {
+            "label": "_totalUSDRaised",
+            "offset": 0,
+            "slot": "264",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:89"
+          },
+          {
+            "label": "_isBuyNStake",
+            "offset": 0,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:91"
+          },
+          {
+            "label": "_isPayReferral",
+            "offset": 1,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:92"
+          },
+          {
+            "label": "_isPayRewardTokens",
+            "offset": 2,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:93"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(AggregatorV3Interface)45": {
+            "label": "contract AggregatorV3Interface",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "fb5450438e7be986b56e30c56e37f98c23b07a5570f3caa9f811cb146ffc61fe": {
+      "address": "0x17E99052F987f5F91dCc28E4A95e378Fa11182bb",
+      "txHash": "0x61b4dafaa36e5369ac7b3ea777cc16a513840ba33322864f9469d0ed6544a8c8",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "_paused",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_bool",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:116"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:107"
+          },
+          {
+            "label": "_tokenSeller",
+            "offset": 0,
+            "slot": "251",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:72"
+          },
+          {
+            "label": "_rewardOwner",
+            "offset": 0,
+            "slot": "252",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:73"
+          },
+          {
+            "label": "_tokenContract",
+            "offset": 0,
+            "slot": "253",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:75"
+          },
+          {
+            "label": "_stakingContract",
+            "offset": 0,
+            "slot": "254",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:76"
+          },
+          {
+            "label": "_referralContract",
+            "offset": 0,
+            "slot": "255",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:77"
+          },
+          {
+            "label": "_usdtContract",
+            "offset": 0,
+            "slot": "256",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:78"
+          },
+          {
+            "label": "_rewardTokenContract",
+            "offset": 0,
+            "slot": "257",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:79"
+          },
+          {
+            "label": "_priceFeedOracleAddress",
+            "offset": 0,
+            "slot": "258",
+            "type": "t_contract(AggregatorV3Interface)45",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:81"
+          },
+          {
+            "label": "_pricePerUSD",
+            "offset": 0,
+            "slot": "259",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:83"
+          },
+          {
+            "label": "_rewardPerUSD",
+            "offset": 0,
+            "slot": "260",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:84"
+          },
+          {
+            "label": "_minContributionUSD",
+            "offset": 0,
+            "slot": "261",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:85"
+          },
+          {
+            "label": "_totalTokenSold",
+            "offset": 0,
+            "slot": "262",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:87"
+          },
+          {
+            "label": "_totalETHRaised",
+            "offset": 0,
+            "slot": "263",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:88"
+          },
+          {
+            "label": "_totalUSDRaised",
+            "offset": 0,
+            "slot": "264",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:89"
+          },
+          {
+            "label": "_isBuyNStake",
+            "offset": 0,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:91"
+          },
+          {
+            "label": "_isPayReferral",
+            "offset": 1,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:92"
+          },
+          {
+            "label": "_isPayRewardTokens",
+            "offset": 2,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:93"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(AggregatorV3Interface)45": {
+            "label": "contract AggregatorV3Interface",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "3be9791b6628e70bf1f483e88664113ba9d112f44f4c673d012d7494dfafc513": {
+      "address": "0x5c5E3790EeB76501f7dDc26789BfF5CFDB4C6Ec2",
+      "txHash": "0xb4895b03d02f4a4a23e0f3e23ae2b07228828171499867ed2c5fd9d11c51c0a4",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "_paused",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_bool",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:116"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:107"
+          },
+          {
+            "label": "_tokenSeller",
+            "offset": 0,
+            "slot": "251",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:72"
+          },
+          {
+            "label": "_rewardOwner",
+            "offset": 0,
+            "slot": "252",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:73"
+          },
+          {
+            "label": "_tokenContract",
+            "offset": 0,
+            "slot": "253",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:75"
+          },
+          {
+            "label": "_stakingContract",
+            "offset": 0,
+            "slot": "254",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:76"
+          },
+          {
+            "label": "_referralContract",
+            "offset": 0,
+            "slot": "255",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:77"
+          },
+          {
+            "label": "_usdtContract",
+            "offset": 0,
+            "slot": "256",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:78"
+          },
+          {
+            "label": "_rewardTokenContract",
+            "offset": 0,
+            "slot": "257",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:79"
+          },
+          {
+            "label": "_priceFeedOracleAddress",
+            "offset": 0,
+            "slot": "258",
+            "type": "t_contract(AggregatorV3Interface)45",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:81"
+          },
+          {
+            "label": "_pricePerUSD",
+            "offset": 0,
+            "slot": "259",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:83"
+          },
+          {
+            "label": "_rewardPerUSD",
+            "offset": 0,
+            "slot": "260",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:84"
+          },
+          {
+            "label": "_minContributionUSD",
+            "offset": 0,
+            "slot": "261",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:85"
+          },
+          {
+            "label": "_totalTokenSold",
+            "offset": 0,
+            "slot": "262",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:87"
+          },
+          {
+            "label": "_totalETHRaised",
+            "offset": 0,
+            "slot": "263",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:88"
+          },
+          {
+            "label": "_totalUSDRaised",
+            "offset": 0,
+            "slot": "264",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:89"
+          },
+          {
+            "label": "_isBuyNStake",
+            "offset": 0,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:91"
+          },
+          {
+            "label": "_isPayReferral",
+            "offset": 1,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:92"
+          },
+          {
+            "label": "_isPayRewardTokens",
+            "offset": 2,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:93"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(AggregatorV3Interface)45": {
+            "label": "contract AggregatorV3Interface",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "ad8c8c5f246f69837efe580504438c63d9f433f91c18a56308060f5dd9fb4217": {
+      "address": "0x7879489181bf39811c4AcD9E7542528cDE0e696F",
+      "txHash": "0x8abba019b5b8a9d1f8fc812097cd79ed8b8ee57d18e558cf4c3a4444dfc93187",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "_paused",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_bool",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:116"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:107"
+          },
+          {
+            "label": "_tokenSeller",
+            "offset": 0,
+            "slot": "251",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:72"
+          },
+          {
+            "label": "_rewardOwner",
+            "offset": 0,
+            "slot": "252",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:73"
+          },
+          {
+            "label": "_tokenContract",
+            "offset": 0,
+            "slot": "253",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:75"
+          },
+          {
+            "label": "_stakingContract",
+            "offset": 0,
+            "slot": "254",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:76"
+          },
+          {
+            "label": "_referralContract",
+            "offset": 0,
+            "slot": "255",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:77"
+          },
+          {
+            "label": "_usdtContract",
+            "offset": 0,
+            "slot": "256",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:78"
+          },
+          {
+            "label": "_rewardTokenContract",
+            "offset": 0,
+            "slot": "257",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:79"
+          },
+          {
+            "label": "_priceFeedOracleAddress",
+            "offset": 0,
+            "slot": "258",
+            "type": "t_contract(AggregatorV3Interface)45",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:81"
+          },
+          {
+            "label": "_pricePerUSD",
+            "offset": 0,
+            "slot": "259",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:83"
+          },
+          {
+            "label": "_rewardPerUSD",
+            "offset": 0,
+            "slot": "260",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:84"
+          },
+          {
+            "label": "_minContributionUSD",
+            "offset": 0,
+            "slot": "261",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:85"
+          },
+          {
+            "label": "_totalTokenSold",
+            "offset": 0,
+            "slot": "262",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:87"
+          },
+          {
+            "label": "_totalETHRaised",
+            "offset": 0,
+            "slot": "263",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:88"
+          },
+          {
+            "label": "_totalUSDRaised",
+            "offset": 0,
+            "slot": "264",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:89"
+          },
+          {
+            "label": "_isBuyNStake",
+            "offset": 0,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:91"
+          },
+          {
+            "label": "_isPayReferral",
+            "offset": 1,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:92"
+          },
+          {
+            "label": "_isPayRewardTokens",
+            "offset": 2,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:93"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(AggregatorV3Interface)45": {
+            "label": "contract AggregatorV3Interface",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "662b516268b67810f46f7da833af92ca230aa4d63d43a151a6aafc7422680ee4": {
+      "address": "0x8A97F2475986261358551E71156B9C6ecC4292ef",
+      "txHash": "0xfe23f3011c438dda4d08ae0655febee8a38b9e1da1b6428b6e137867df98d4e2",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "_paused",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_bool",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:116"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:107"
+          },
+          {
+            "label": "_tokenSeller",
+            "offset": 0,
+            "slot": "251",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:72"
+          },
+          {
+            "label": "_rewardOwner",
+            "offset": 0,
+            "slot": "252",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:73"
+          },
+          {
+            "label": "_tokenContract",
+            "offset": 0,
+            "slot": "253",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:75"
+          },
+          {
+            "label": "_stakingContract",
+            "offset": 0,
+            "slot": "254",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:76"
+          },
+          {
+            "label": "_referralContract",
+            "offset": 0,
+            "slot": "255",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:77"
+          },
+          {
+            "label": "_usdtContract",
+            "offset": 0,
+            "slot": "256",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:78"
+          },
+          {
+            "label": "_rewardTokenContract",
+            "offset": 0,
+            "slot": "257",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:79"
+          },
+          {
+            "label": "_priceFeedOracleAddress",
+            "offset": 0,
+            "slot": "258",
+            "type": "t_contract(AggregatorV3Interface)45",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:81"
+          },
+          {
+            "label": "_pricePerUSD",
+            "offset": 0,
+            "slot": "259",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:83"
+          },
+          {
+            "label": "_rewardPerUSD",
+            "offset": 0,
+            "slot": "260",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:84"
+          },
+          {
+            "label": "_minContributionUSD",
+            "offset": 0,
+            "slot": "261",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:85"
+          },
+          {
+            "label": "_totalTokenSold",
+            "offset": 0,
+            "slot": "262",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:87"
+          },
+          {
+            "label": "_totalETHRaised",
+            "offset": 0,
+            "slot": "263",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:88"
+          },
+          {
+            "label": "_totalUSDRaised",
+            "offset": 0,
+            "slot": "264",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:89"
+          },
+          {
+            "label": "_isBuyNStake",
+            "offset": 0,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:91"
+          },
+          {
+            "label": "_isPayReferral",
+            "offset": 1,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:92"
+          },
+          {
+            "label": "_isPayRewardTokens",
+            "offset": 2,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:93"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(AggregatorV3Interface)45": {
+            "label": "contract AggregatorV3Interface",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "750a4d2e5777a8122a7a6f54505cf6e440baca42619bfad2986bb42fbfcfe065": {
+      "address": "0xB3a58cb798e9168C7d03e7375DE4ce0204cB1abd",
+      "txHash": "0xf482a9523b57e537d768483ac8b91df66ce3c3f3139f1b92ece1c8e194ffced1",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "_paused",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_bool",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:116"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:107"
+          },
+          {
+            "label": "_tokenSeller",
+            "offset": 0,
+            "slot": "251",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:72"
+          },
+          {
+            "label": "_rewardOwner",
+            "offset": 0,
+            "slot": "252",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:73"
+          },
+          {
+            "label": "_tokenContract",
+            "offset": 0,
+            "slot": "253",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:75"
+          },
+          {
+            "label": "_stakingContract",
+            "offset": 0,
+            "slot": "254",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:76"
+          },
+          {
+            "label": "_referralContract",
+            "offset": 0,
+            "slot": "255",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:77"
+          },
+          {
+            "label": "_usdtContract",
+            "offset": 0,
+            "slot": "256",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:78"
+          },
+          {
+            "label": "_rewardTokenContract",
+            "offset": 0,
+            "slot": "257",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:79"
+          },
+          {
+            "label": "_priceFeedOracleAddress",
+            "offset": 0,
+            "slot": "258",
+            "type": "t_contract(AggregatorV3Interface)45",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:81"
+          },
+          {
+            "label": "_pricePerUSD",
+            "offset": 0,
+            "slot": "259",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:83"
+          },
+          {
+            "label": "_rewardPerUSD",
+            "offset": 0,
+            "slot": "260",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:84"
+          },
+          {
+            "label": "_minContributionUSD",
+            "offset": 0,
+            "slot": "261",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:85"
+          },
+          {
+            "label": "_totalTokenSold",
+            "offset": 0,
+            "slot": "262",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:87"
+          },
+          {
+            "label": "_totalETHRaised",
+            "offset": 0,
+            "slot": "263",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:88"
+          },
+          {
+            "label": "_totalUSDRaised",
+            "offset": 0,
+            "slot": "264",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:89"
+          },
+          {
+            "label": "_isBuyNStake",
+            "offset": 0,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:91"
+          },
+          {
+            "label": "_isPayReferral",
+            "offset": 1,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:92"
+          },
+          {
+            "label": "_isPayRewardTokens",
+            "offset": 2,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:93"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(AggregatorV3Interface)45": {
+            "label": "contract AggregatorV3Interface",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "758ef551a39cad2284286106a5703db54679c5c91ac7e060f2f8d4e8bf1f097c": {
+      "address": "0xF9b5EBAC6d367014FDB075E6126B8F93Ce50031A",
+      "txHash": "0x5c0f769fb3c53f75a48c15b0ee622fbde65b36411ad504f45ef4446a474637cd",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "_paused",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_bool",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:116"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:107"
+          },
+          {
+            "label": "_tokenSeller",
+            "offset": 0,
+            "slot": "251",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:72"
+          },
+          {
+            "label": "_rewardOwner",
+            "offset": 0,
+            "slot": "252",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:73"
+          },
+          {
+            "label": "_tokenContract",
+            "offset": 0,
+            "slot": "253",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:75"
+          },
+          {
+            "label": "_stakingContract",
+            "offset": 0,
+            "slot": "254",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:76"
+          },
+          {
+            "label": "_referralContract",
+            "offset": 0,
+            "slot": "255",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:77"
+          },
+          {
+            "label": "_usdtContract",
+            "offset": 0,
+            "slot": "256",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:78"
+          },
+          {
+            "label": "_rewardTokenContract",
+            "offset": 0,
+            "slot": "257",
+            "type": "t_address",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:79"
+          },
+          {
+            "label": "_priceFeedOracleAddress",
+            "offset": 0,
+            "slot": "258",
+            "type": "t_contract(AggregatorV3Interface)45",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:81"
+          },
+          {
+            "label": "_pricePerUSD",
+            "offset": 0,
+            "slot": "259",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:83"
+          },
+          {
+            "label": "_rewardPerUSD",
+            "offset": 0,
+            "slot": "260",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:84"
+          },
+          {
+            "label": "_minContributionUSD",
+            "offset": 0,
+            "slot": "261",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:85"
+          },
+          {
+            "label": "_totalTokenSold",
+            "offset": 0,
+            "slot": "262",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:87"
+          },
+          {
+            "label": "_totalETHRaised",
+            "offset": 0,
+            "slot": "263",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:88"
+          },
+          {
+            "label": "_totalUSDRaised",
+            "offset": 0,
+            "slot": "264",
+            "type": "t_uint256",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:89"
+          },
+          {
+            "label": "_isBuyNStake",
+            "offset": 0,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:91"
+          },
+          {
+            "label": "_isPayReferral",
+            "offset": 1,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:92"
+          },
+          {
+            "label": "_isPayRewardTokens",
+            "offset": 2,
+            "slot": "265",
+            "type": "t_bool",
+            "contract": "PresaleUpgradeable",
+            "src": "contracts/PresaleUpgradeable.sol:93"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(AggregatorV3Interface)45": {
+            "label": "contract AggregatorV3Interface",
+            "numberOfBytes": "20"
           },
           "t_uint256": {
             "label": "uint256",

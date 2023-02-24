@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { FaToggleOff, FaToggleOn } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import { TokenSymbol } from "../../../hooks";
+import { TokenSymbol } from "../../../hooks/SupportedNetworkInfo";
 
 export const DrawerMenuRightUniversalAuth = ({
   onClose,

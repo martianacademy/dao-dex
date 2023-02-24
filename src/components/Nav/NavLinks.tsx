@@ -12,7 +12,7 @@ import React from "react";
 import { FaHiking, FaHome, FaPiggyBank, FaRoad, FaUsers } from "react-icons/fa";
 import { TbChartDonut } from "react-icons/tb";
 import { CiMoneyCheck1 } from "react-icons/ci";
-import { TokenSymbol } from "../../hooks";
+import { TokenSymbol } from "../../hooks/SupportedNetworkInfo";
 import { Link as ScrollLink, animateScroll } from "react-scroll";
 
 export const NavLinks = () => {

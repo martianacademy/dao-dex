@@ -12,7 +12,7 @@ import {
 import { shortenAddress, useEthers } from "@usedapp/core";
 import React from "react";
 import { FaClipboard, FaCopy, FaPaste } from "react-icons/fa";
-import { useSupportedNetworkInfo } from "../../../../hooks";
+import { useSupportedNetworkInfo } from "../../../../hooks/SupportedNetworkInfo";
 
 export const NetworkInfoCard = () => {
   const { account, chainId } = useEthers();
@@ -29,7 +29,7 @@ export const NetworkInfoCard = () => {
       boxShadow="md"
     >
       <Wrap align="center" justify="center">
-        <Heading fontSize="md">{shortenAddress(account!)}</Heading>
+        <Heading fontSize="sm">{shortenAddress(account!)}</Heading>
         <HStack>
           <IconButton
             aria-label="User Address Copy Button"
@@ -52,7 +52,7 @@ export const NetworkInfoCard = () => {
       <Spacer />
       <Wrap align="center" justify="center">
         <Image src={currentNetwork?.Native.Logo} boxSize={7}></Image>
-        <Heading size="sm" textAlign="center">
+        <Heading size="xs" textAlign="center">
           {currentNetwork?.Native.Name}
         </Heading>
       </Wrap>

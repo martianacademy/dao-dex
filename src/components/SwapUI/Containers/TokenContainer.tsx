@@ -1,3 +1,4 @@
+import { InfoIcon } from "@chakra-ui/icons";
 import {
   Button,
   FormControl,
@@ -7,6 +8,8 @@ import {
   Input,
   Spacer,
   Text,
+  Tooltip,
+  Icon,
 } from "@chakra-ui/react";
 import { Polygon, useEtherBalance, useEthers } from "@usedapp/core";
 import { BigNumber } from "ethers";
@@ -16,18 +19,18 @@ import {
   TokenLogo,
   TokenSymbol,
   useSupportedNetworkInfo,
-} from "../../../hooks";
+} from "../../../hooks/SupportedNetworkInfo";
 import { InputContainer } from "../../UI";
 
 export const TokenContainer = ({
   value,
   userBalance,
+  onChange,
 }: {
-  value?: string;
-  userBalance?: string;
+  value?: number;
+  userBalance?: number;
+  onChange?: (e: any) => void;
 }) => {
-  const { chainId } = useEthers();
-  const currentNetwork = useSupportedNetworkInfo[chainId!];
   return (
     <InputContainer>
       <FormControl>
@@ -36,10 +39,21 @@ export const TokenContainer = ({
             <Image src={TokenLogo} boxSize={5}></Image>
             <Text>{TokenSymbol}</Text>
             <Spacer />
-            <Text>{userBalance ? userBalance : 0}</Text>
+            <Text noOfLines={1} fontSize="sm">
+              {userBalance ? userBalance.toFixed(2) : 0}
+            </Text>
+            <Tooltip label={userBalance} borderRadius="xl">
+              <Icon as={InfoIcon}></Icon>
+            </Tooltip>
           </HStack>
         </FormLabel>
-        <Input borderRadius="xl" placeholder="0.0" h={14} value={value}></Input>
+        <Input
+          borderRadius="xl"
+          placeholder="0.0"
+          h={14}
+          value={value}
+          onChange={onChange}
+        ></Input>
       </FormControl>
     </InputContainer>
   );

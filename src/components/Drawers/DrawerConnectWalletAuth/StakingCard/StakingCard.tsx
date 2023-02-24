@@ -1,6 +1,6 @@
 import { Heading, HStack, Image, Spacer, VStack } from "@chakra-ui/react";
 import React from "react";
-import { TokenLogo, TokenSymbol } from "../../../../hooks";
+import { TokenLogo, TokenSymbol } from "../../../../hooks/SupportedNetworkInfo";
 
 export const StakingCard = () => {
   return (

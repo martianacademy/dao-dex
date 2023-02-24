@@ -1,8 +1,11 @@
 import { VStack } from "@chakra-ui/react";
 import React from "react";
 import { ReferEarnWorkersSVG } from "../../../assets";
-import { HeaderStrip, SectionHeader } from "../../../components";
-import { ReferralLink } from "./ReferralLink";
+import {
+  HeaderStrip,
+  SectionHeader,
+  UserReferralLink,
+} from "../../../components";
 import { Rewards } from "./Rewards";
 
 export const Referral = () => {
@@ -23,7 +26,7 @@ export const Referral = () => {
         text="You can earn various rewards including DaoDex Coins when you refer your friend. Let us all grow together. Who want to associate with us full time most welcome. Earn upto 20% rewards."
       ></SectionHeader>
       <Rewards />
-      <ReferralLink />
+      <UserReferralLink />
     </VStack>
   );
 };

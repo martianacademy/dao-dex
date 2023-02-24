@@ -20,7 +20,7 @@ import {
 import { useEthers } from "@usedapp/core";
 import React from "react";
 import { MetamaskWalletLogoSVG } from "../../assets";
-import { useSupportedNetworkInfo } from "../../hooks";
+import { useSupportedNetworkInfo } from "../../hooks/SupportedNetworkInfo";
 import { DrawerAuthFull } from "../Drawers";
 
 export const ConnectWalletIconButton = () => {
@@ -56,7 +56,12 @@ export const ConnectWalletIconButton = () => {
           <AvatarBadge boxSize={4} bgColor={avatarBadgeColor}></AvatarBadge>
         </Avatar>
       </Button>
-      <Drawer isOpen={isOpen} placement="bottom" onClose={onClose}>
+      <Drawer
+        isOpen={isOpen}
+        placement="bottom"
+        onClose={onClose}
+        preserveScrollBarGap
+      >
         <DrawerOverlay />
         <DrawerContent borderTopRadius="50px">
           <DrawerCloseButton />

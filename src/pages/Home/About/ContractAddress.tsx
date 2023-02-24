@@ -15,7 +15,7 @@ import { Polygon, useEthers } from "@usedapp/core";
 import React from "react";
 import { PolygonLogoSVG } from "../../../assets";
 import { LogoContainer } from "../../../components";
-import { TokenContractAddress } from "../../../hooks";
+import { TokenContractAddress } from "../../../hooks/SupportedNetworkInfo";
 
 export const ContractAddress = () => {
   const { onCopy, hasCopied } = useClipboard(TokenContractAddress.polygon);

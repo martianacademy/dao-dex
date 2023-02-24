@@ -25,8 +25,13 @@ contract DAODEXEXCHANGECOIN is
         ERC20("DAODEX EXCHANGE COIN", "DAODEX")
         ERC20Permit("DAODEX EXCHANGE COIN")
     {
+        // _mint(
+        //     0xB35963E0AB2141cd4aB743e7a35d8772F3Cf0447,
+        //     1000000000 * 10 ** decimals()
+        // );
+
         _mint(
-            0xB35963E0AB2141cd4aB743e7a35d8772F3Cf0447,
+            msg.sender,
             1000000000 * 10 ** decimals()
         );
     }

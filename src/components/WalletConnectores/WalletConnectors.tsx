@@ -11,7 +11,7 @@ import {
   TrustWalletLogoSVG,
   WalletConnectLogoSVG,
 } from "../../assets";
-import { DeepLinks } from "../../hooks";
+import { DeepLinks } from "../../hooks/SupportedNetworkInfo";
 
 const MotionVStack = motion(VStack);
 

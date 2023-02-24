@@ -12,7 +12,7 @@ import { GoFlame } from "react-icons/go";
 
 export const Rewards = () => {
   return (
-    <HStack p={5} spacing={10}>
+    <HStack p={5} spacing={5}>
       <Card
         p={5}
         borderRadius="50px"

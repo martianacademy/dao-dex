@@ -6,18 +6,12 @@ import {
   DrawerHeader,
   HStack,
   VStack,
-  Wrap,
 } from "@chakra-ui/react";
 import { useEthers } from "@usedapp/core";
-import React from "react";
 import { FaPowerOff } from "react-icons/fa";
 import { NetworkInfoCard } from "./NetworkInfoCard";
 import { StakingCard } from "./StakingCard";
-import {
-  UserNativeBalanceCard,
-  UserTokenBalanceCard,
-  UserUSDTBalanceCard,
-} from "./UserBalances";
+import { UserBalances } from "./UserBalances/UserBalances";
 
 export const DrawerConnectWalletAuth = ({
   onClose,
@@ -34,7 +28,7 @@ export const DrawerConnectWalletAuth = ({
         <Divider></Divider>
         <VStack w="full" p={5} spacing={5}>
           <NetworkInfoCard />
-          <Wrap
+          {/* <Wrap
             p={5}
             align="center"
             justify="center"
@@ -42,16 +36,17 @@ export const DrawerConnectWalletAuth = ({
             borderBottomRadius="50px"
             spacing={5}
           >
-            <HStack w={190}>
+            <HStack w={250}>
               <UserTokenBalanceCard />
             </HStack>
-            <HStack w={190}>
+            <HStack w={250}>
               <UserNativeBalanceCard />
             </HStack>
-            <HStack w={190}>
+            <HStack w={250}>
               <UserUSDTBalanceCard />
             </HStack>
-          </Wrap>
+          </Wrap> */}
+          <UserBalances />
           <StakingCard />
         </VStack>
       </DrawerBody>

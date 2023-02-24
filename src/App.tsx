@@ -9,11 +9,7 @@ export default function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <VStack
-      w="full"
-      bgColor={useColorModeValue("gray.100", "gray.800")}
-      overflowY="hidden"
-    >
+    <VStack w="full" bgColor={useColorModeValue("gray.100", "gray.800")}>
       <ScrollToTop />
       <Nav />
       <Outlet />

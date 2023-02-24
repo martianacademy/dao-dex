@@ -10,7 +10,7 @@ import {
 import { useConfig, useEthers } from "@usedapp/core";
 import { getChainById } from "@usedapp/core/dist/esm/src/helpers";
 import { useState } from "react";
-import { useSupportedNetworkInfo } from "../../hooks";
+import { useSupportedNetworkInfo } from "../../hooks/SupportedNetworkInfo";
 
 export const SwitchNetworkButtons = () => {
   const { switchNetwork, chainId } = useEthers();

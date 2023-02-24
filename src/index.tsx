@@ -7,6 +7,7 @@ import {
   Polygon,
 } from "@usedapp/core";
 import { WalletConnectConnector } from "@usedapp/wallet-connect-connector";
+import { getDefaultProvider } from "ethers";
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import { createHashRouter, RouterProvider } from "react-router-dom";
@@ -33,8 +34,11 @@ const dappConfig: Config = {
   notifications: {
     expirationPeriod: 5000,
   },
+  readOnlyChainId: BSCTestnet?.chainId,
   readOnlyUrls: {
-    [97]: "https://bsc-testnet.public.blastapi.io",
+    [BSCTestnet?.chainId]: getDefaultProvider(
+      "https://bsc-testnet.public.blastapi.io"
+    ),
     [Polygon.chainId]: "https://polygon-rpc.com",
   },
   networks: [BSCTestnet, Polygon],

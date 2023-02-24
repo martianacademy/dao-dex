@@ -52,7 +52,7 @@ module.exports = {
     },
 
     bscTestnet: {
-      url: "https://data-seed-prebsc-2-s3.binance.org:8545",
+      url: "https://data-seed-prebsc-1-s3.binance.org:8545/",
       chainId: 97,
       accounts: [BSC_TESTNET_PRIVATE_KEY],
       gas: "auto",

@@ -15,7 +15,7 @@ import { ReactNode } from "react";
 import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import { BiMailSend } from "react-icons/bi";
 import { LogoContainer } from "../LogoContainer";
-import { TokenSymbol } from "../../hooks";
+import { TokenSymbol } from "../../hooks/SupportedNetworkInfo";
 
 const SocialButton = ({
   children,

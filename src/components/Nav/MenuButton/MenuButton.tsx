@@ -64,7 +64,12 @@ export const MenuButton = () => {
         bg={"orange.400"}
         _hover={{ bg: "orange.500" }}
       ></IconButton>
-      <Drawer isOpen={isOpen} onClose={onToggle} blockScrollOnMount>
+      <Drawer
+        isOpen={isOpen}
+        onClose={onToggle}
+        blockScrollOnMount
+        preserveScrollBarGap
+      >
         <DrawerOverlay />
         <DrawerContent>
           <DrawerBody pt={125}>
